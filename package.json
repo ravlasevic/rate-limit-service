@@ -1,0 +1,21 @@
+{
+  "name": "rate-limit-service",
+  "version": "1.0.0",
+  "description": "Simple service responsible for routing requests and rate-limit them.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/index.js"
+  },
+  "author": "Roman Avlasevic",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.2.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  }
+}
